@@ -1,0 +1,9 @@
+form {
+    position: relative;
+    width: 50%;
+    justify-content: left;
+    margin-top: 15vh;
+    margin-left: 27vw;
+    font-size: 24px;
+    font-weight: bolder;
+}

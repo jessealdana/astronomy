@@ -1,0 +1,165 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .home {
+    background-image: url(./components/images/codexBackground.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+
+  .about {
+    background-image: url(./components/images/figPaper.jpg);
+    background-size: 100% 100%;
+    height: auto;
+  }
+
+  .contact {
+    background-image: url(./components/images/figPaper.jpg);
+    background-size: 100% 100%;
+    height: auto;
+  }
+
+  .math {
+    background-image: url(./components/images/figPaper.jpg);
+    background-size: 100% 100%;
+    height: auto;
+  }
+
+  #homePic {
+    width: 9vw;
+    height: 18.75vh;
+    position: absolute;
+    left: 23vw;
+    top: 5vh;
+}
+
+#aboutPic {
+    width: 9vw;
+    height: 18.75vh;
+    position: absolute;
+    left: 65vw;
+    top: 5vh;
+}
+
+#wikiPic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 26vw;
+    top: 34.5vh;
+}
+
+#modOnePic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 54vw;
+    top: 34.5vh;
+}
+
+#modTwoPic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 67vw;
+    top: 34.5vh;
+}
+
+#modThreePic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 80vw;
+    top: 34.5vh;
+}
+#modFourPic {
+    width: 9vw;
+    height: 25vh;
+    position: absolute;
+    left: 50vw;
+    top: 70vh;
+}
+
+#modFivePic {
+    width: 9vw;
+    height: 25vh;
+    position: absolute;
+    left: 87vw;
+    top: 70vh;
+}
+
+#wikiTitle {
+  width: 9vw;
+  height: 26vh;
+  position: absolute;
+  left: 26vw;
+  top: 39.5vh;
+}
+
+#samplePic {
+  width: 9vw;
+  height: 18.75vh;
+  position: absolute;
+  left: 23vw;
+  top: 10vh;
+}
+
+ .moveIt {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+  } 
+  
+  h4 {
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  hr {
+    border-top: 2px dotted #3f51b5;
+  }
+  
+  button {
+    margin-right: 10px;
+    background: #3f51b5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px #ccc;
+  }
+
+  .row {
+    height: 1000px;
+    width: 100%;
+
+  }
+
+  .pitch {
+    position: relative;
+    width: 100%;
+    margin-top: 20vh;
+    margin-left: -10vw;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .masthead {
+    position: relative;
+    width: 50%;
+    justify-content: left;
+    top: -45vh;
+    margin-left: 38vw;
+    font-weight: bolder;
+  }
+
+  .demoPage {
+    margin-right: 80px;
+  }
+
+
