@@ -6,8 +6,9 @@ import wiki from "../components/images/wiki.png";
 import modOne from "../components/images/modOne.png";
 import modTwo from "../components/images/modTwo.png";
 import modThree from "../components/images/modThree.png";
-import modFive from "../components/images/modFour.png";
-import modSix from "../components/images/modFive.png";
+import modFour from "../components/images/modFour.png";
+import modFive from "../components/images/modFive.png";
+import modSix from "../components/images/modSix.png";
 
 function Home() {
   return (
@@ -31,6 +32,9 @@ function Home() {
             </a>
             <a href="/modThree">
                 <img id="modThreePic" src={modThree} alt="Module 3" />
+            </a>
+            <a href="/modFour">
+                <img id="modFourPic" src={modFour} alt="Module 4" />
             </a>
             <a href="/modFive">
                 <img id="modFivePic" src={modFive} alt="Module 5" />

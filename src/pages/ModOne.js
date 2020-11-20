@@ -17,7 +17,7 @@ function ModOne(props) {
   return (
     <div className="myBook">
       <Navigation />
-        <HTMLFlipBook width={1000} height={800}>
+        <HTMLFlipBook width={1000} height={1000}>
           <div className="demoPage">
             <div className="pageContent">
               <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "1000px", height: "1000px"}}>Page 1</div>

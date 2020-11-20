@@ -74,6 +74,13 @@
     left: 80vw;
     top: 34.5vh;
 }
+#modFourPic {
+  width: 9vw;
+  height: 26vh;
+  position: absolute;
+  left: 6vw;
+  top: 69vh;
+}
 #modFivePic {
     width: 9vw;
     height: 25vh;

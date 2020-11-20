@@ -9,6 +9,7 @@ import Wiki from "./pages/Wiki";
 import ModOne from "./pages/ModOne";
 import ModTwo from "./pages/ModTwo";
 import ModThree from "./pages/ModThree";
+import ModFour from "./pages/ModFour"
 import ModFive from "./pages/ModFive";
 import ModSix from "./pages/ModSix";
 import Sample from "./pages/Sample";
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/modOne" exact component={() => <ModOne />} />
           <Route path="/modTwo" exact component={() => <ModTwo />} />
           <Route path="/modThree" exact component={() => <ModThree />} />
+          <Route path="/modFour" exact component={() => <ModFour />} />
           <Route path="/modFive" exact component={() => <ModFive /> } />
           <Route path="/modSix" exact component={() => <ModSix />} />
           <Route path="/sample" exact component={() => <Sample />} />
