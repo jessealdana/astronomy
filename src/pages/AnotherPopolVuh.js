@@ -2,36 +2,31 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import "../styles.css";
 import HTMLFlipBook from "react-pageflip";
-import titleBackground from "../components/images/2012p1.png";
-import pageOne from "../components/images/2012p2.png";
-import pageTwo from "../components/images/2012p3.png";
-import pageThree from "../components/images/2012p4.png";
-import pageFour from "../components/images/2012p5.png";
-import pageFive from "../components/images/2012p6.png";
-import pageSix from "../components/images/2012p7.png";
-import pageSeven from "../components/images/2012p8.png";
-import pageEight from "../components/images/2012p9.png";
-import pageNine from "../components/images/2012p10.png";
-import pageTen from "../components/images/2012p11.png";
-import pageEleven from "../components/images/2012p12.png";
-import pageTwelve from "../components/images/2012p13.png";
-import pageThirteen from "../components/images/2012p14.png";
-import pageFourteen from "../components/images/2012p15.png";
-import pageFifteen from "../components/images/2012p16.png";
-import pageSixteen from "../components/images/2012p17.png";
-import pageSeventeen from "../components/images/2012p18.png";
-import pageEighteen from "../components/images/2012p19.png";
-import pageNineteen from "../components/images/2012p20.png";
-import pageTwenty from "../components/images/2012p21.png";
-import pageTwentyOne from "../components/images/2012p22.png";
-import pageTwentyTwo from "../components/images/2012p23.png";
-import pageTwentyThree from "../components/images/2012p24.png";
-import pageTwentyFour from "../components/images/2012p25.png";
-import pageTwentyFive from "../components/images/2012p26.png";
-import pageTwentySix from "../components/images/2012p27.png";
-import pageTwentySeven from "../components/images/mp8.png";
+import titleBackground from "../components/images/pop1.png";
+import pageOne from "../components/images/pop2.png";
+import pageTwo from "../components/images/pop3.png";
+import pageThree from "../components/images/pop4.png";
+import pageFour from "../components/images/pop5.png";
+import pageFive from "../components/images/pop6.png";
+import pageSix from "../components/images/pop7.png";
+import pageSeven from "../components/images/pop8.png";
+import pageEight from "../components/images/pop9.png";
+import pageNine from "../components/images/pop10.png";
+import pageTen from "../components/images/pop11.png";
+import pageEleven from "../components/images/pop12.png";
+import pageTwelve from "../components/images/pop13.png";
+import pageThirteen from "../components/images/pop14.png";
+import pageFourteen from "../components/images/pop15.png";
+import pageFifteen from "../components/images/pop16.png";
+import pageSixteen from "../components/images/pop17.png";
+import pageSeventeen from "../components/images/pop18.png";
+import pageEighteen from "../components/images/pop19.png";
+import pageNineteen from "../components/images/pop20.png";
+import pageTwenty from "../components/images/pop21.png";
+import pageTwentyOne from "../components/images/mp8.png";
 
-function ModFour(props) {
+
+function AnotherPopolVuh(props) {
   return (
     <div className="myBook">
       <Navigation />
@@ -146,39 +141,9 @@ function ModFour(props) {
               <div className="page-image" style={{backgroundImage: `url(${pageTwentyOne})`, width: "1000px", height: "1000px"}}>Page 22</div>
             </div>
           </div>
-          <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwentyTwo})`, width: "1000px", height: "1000px"}}>Page 23</div>
-            </div>
-          </div>
-          <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwentyThree})`, width: "1000px", height: "1000px"}}>Page 24</div>
-            </div>
-          </div>
-          <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwentyFour})`, width: "1000px", height: "1000px"}}>Page 25</div>
-            </div>
-          </div>
-          <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwentyFive})`, width: "1000px", height: "1000px"}}>Page 26</div>
-            </div>
-          </div>
-          <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwentySix})`, width: "1000px", height: "1000px"}}>Page 27</div>
-            </div>
-          </div>
-          <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwentySeven})`, width: "1000px", height: "1000px"}}>Page 28</div>
-            </div>
-          </div>
-        </HTMLFlipBook>
+         </HTMLFlipBook>
     </div>
   );
 }
 
-export default ModFour;
+export default AnotherPopolVuh;

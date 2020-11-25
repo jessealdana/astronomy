@@ -11,7 +11,7 @@ function ModFive(props) {
   return (
     <div className="myBook">
       <Navigation />
-        <HTMLFlipBook width={1000} height={1000}>
+        <HTMLFlipBook width={1000} height={1000} style={{marginLeft: "auto", marginRight: "auto"}}>
           <div className="demoPage">
             <div className="pageContent">
               <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "1000px", height: "1000px"}}>Page 1</div>

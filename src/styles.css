@@ -113,6 +113,14 @@
   top: 10vh;
 }
 
+#anotherPopolVuh {
+  width: 9vw;
+  height: 26vh;
+  position: absolute;
+  left: 67vw;
+  top: 39.5vh;
+}
+
  .moveIt {
     height: 100%;
     width: 100%;
@@ -167,6 +175,10 @@
 
   .demoPage {
     margin-right: 80px;
+  }
+
+  .myBook {
+    background-color: rgb(87, 76, 17);
   }
 
 

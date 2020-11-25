@@ -17,7 +17,7 @@ function ModOne(props) {
   return (
     <div className="myBook">
       <Navigation />
-        <HTMLFlipBook width={1000} height={1000}>
+        <HTMLFlipBook width={1000} height={1000} style={{marginLeft: "auto", marginRight: "auto"}}>
           <div className="demoPage">
             <div className="pageContent">
               <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "1000px", height: "1000px"}}>Page 1</div>
@@ -54,13 +54,15 @@ function ModOne(props) {
             </div>
           </div>
           <div className="demoPage">
-            <div className="pageContent">
+            <div className="container">
               <div className="video col-sm-6">
-                <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "1000px", height: "1000px"}}>                        
+                <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "1000px", height: "1000px"}}> 
+                    <div className="row">                       
                       <ReactPlayer 
                           style={{postion: "relative", marginTop: "30%", marginLeft: "7vw"}}
                           url="https://youtu.be/2U9JsZJVqnA" 
                       />
+                    </div>
                 </div>
               </div>
             </div>

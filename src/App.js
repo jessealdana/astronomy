@@ -13,6 +13,7 @@ import ModFour from "./pages/ModFour"
 import ModFive from "./pages/ModFive";
 import ModSix from "./pages/ModSix";
 import Sample from "./pages/Sample";
+import AnotherPopolVuh from "./pages/AnotherPopolVuh"
 import "./models/Codex.js";
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/modFive" exact component={() => <ModFive /> } />
           <Route path="/modSix" exact component={() => <ModSix />} />
           <Route path="/sample" exact component={() => <Sample />} />
+          <Route path="/popol" exact component={() => <AnotherPopolVuh />} />
         </Switch>
       </Router>
     </div>
