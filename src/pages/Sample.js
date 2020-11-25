@@ -1,32 +1,28 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import { PDFViewer } from '@react-pdf/renderer'; 
-import MyDocument from "../components/MyDocument/index";
 import "../styles.css";
+import HTMLFlipBook from "react-pageflip";
+import titleBackground from "../components/images/events1.png";
+import pageOne from "../components/images/mp8.png";
 
-
-export default function Sample() {
-  return (
-    <div className="about">
-      <Navigation />
-      <div className="container">
-        <div className="row" style={{marginTop: "20%"}}>
-                        <div className="module col-sm-6">
-                            <PDFViewer style={{postion: "relative", marginLeft: "-40vh", height: "75vh", width: "45vw", paddingRight: "0"}}>
-                                <MyDocument />
-                            </PDFViewer>
-                        </div>
-                        <div className="masthead col-sm-6">                        
-                            <h1>Sample</h1>
-                            <br />
-                            <h3>by Sample</h3>
-                            <br />
-                            <h3>at Sample Elementary</h3>
-                            <br />
-                            <p>This sample is for demonstration purposes only</p>
-                        </div>
-        </div>
-      </div>
+function Events(props) {
+    return (
+      <div className="myBook">
+        <Navigation />
+          <HTMLFlipBook width={1000} height={1000} style={{marginLeft: "auto", marginRight: "auto"}}>
+          <div className="demoPage">
+            <div className="pageContent">
+              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "1000px", height: "1000px"}}>Page 1</div>
+            </div>
+          </div>
+          <div className="demoPage">
+            <div className="pageContent">
+              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "1000px", height: "1000px"}}>Page 2</div>
+            </div>
+          </div>
+          </HTMLFlipBook>
     </div>
   );
 }
+
+export default Events

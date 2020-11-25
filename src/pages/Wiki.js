@@ -1,8 +1,8 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import "../styles.css";
-import wiki from "../components/images/wiki.png";
-import sample from "../components/images/sample.png"
+import collab from "../components/images/collab.png";
+import sample from "../components/images/events.png"
 import popol from "../components/images/popol.png";
 
 export default function Wiki() {
@@ -13,9 +13,11 @@ export default function Wiki() {
       <div className="container">
         <div className="main">
             <a href="/sample">
-                <img id="samplePic" src={sample} alt="Sample" />
+                <img id="samplePic" src={sample} alt="Events" />
             </a>
-            <img id="wikiTitle" src={wiki} alt="Wiki" />
+            <a href="/aboutWiki">
+              <img id="wikiTitle" src={collab} alt="Wiki" />
+            </a>
             <a href="/popol">
                 <img id="anotherPopolVuh" src={popol} alt="Another Popol Vuh" />
             </a>

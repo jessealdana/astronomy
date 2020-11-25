@@ -2,10 +2,10 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import "../styles.css";
 import HTMLFlipBook from "react-pageflip";
-import titleBackground from "../components/images/contact1.png";
-import pageOne from "../components/images/contact2.png";
+import titleBackground from "../components/images/mp7.png";
+import pageOne from "../components/images/collab2.png";
 
-function Contact(props) {
+function AboutWiki(props) {
     return (
       <div className="myBook">
         <Navigation />
@@ -25,4 +25,5 @@ function Contact(props) {
   );
 }
 
-export default Contact
+
+export default AboutWiki;

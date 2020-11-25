@@ -14,17 +14,10 @@ import ModFive from "./pages/ModFive";
 import ModSix from "./pages/ModSix";
 import Sample from "./pages/Sample";
 import AnotherPopolVuh from "./pages/AnotherPopolVuh"
-import "./models/Codex.js";
+import AboutWiki from "./pages/AboutWiki"
+
 
 export default function App() {
-  // state= {
-  //   Codex: [],
-  // };
-  // addNewCodex = (CodexData) => {
-  //   this.setState(prevState => ({
-  //     Codex: [...prevState.Codex, CodexData]
-  //   }))
-  // }
   return (
     <div className="App">
       <Router>
@@ -41,6 +34,7 @@ export default function App() {
           <Route path="/modSix" exact component={() => <ModSix />} />
           <Route path="/sample" exact component={() => <Sample />} />
           <Route path="/popol" exact component={() => <AnotherPopolVuh />} />
+          <Route path="/aboutWiki" exact component={() => <AboutWiki />} />
         </Switch>
       </Router>
     </div>
