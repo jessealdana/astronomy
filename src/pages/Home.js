@@ -3,6 +3,7 @@ import "../styles.css";
 import home from "../components/images/twoEyed.png";
 import about from "../components/images/trimmedAbout.png";
 import wiki from "../components/images/wiki.png";
+import popol from "../components/images/popol.png";
 import modOne from "../components/images/modOne.png";
 import modTwo from "../components/images/modTwo.png";
 import modThree from "../components/images/modThree.png";
@@ -23,6 +24,9 @@ function Home() {
             </a>
             <a href="/Wiki">
                 <img id="wikiPic" src={wiki} alt="Wiki" />
+            </a>
+            <a href="/popol">
+                <img id="anotherPopolVuh" src={popol} alt="Another Popol Vuh" />
             </a>
             <a href="/modOne">
                 <img id="modOnePic" src={modOne} alt="Module 1" />
