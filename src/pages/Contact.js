@@ -9,15 +9,15 @@ function Contact(props) {
     return (
       <div className="myBook">
         <Navigation />
-          <HTMLFlipBook width={1000} height={1000} style={{marginLeft: "auto", marginRight: "auto"}}>
+          <HTMLFlipBook width={400} height={400} style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "1000px", height: "1000px"}}>Page 1</div>
+              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "400px", height: "400px"}}>Page 1</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "1000px", height: "1000px"}}>Page 2</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "400px", height: "400px"}}>Page 2</div>
             </div>
           </div>
           </HTMLFlipBook>

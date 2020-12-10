@@ -15,45 +15,45 @@ function MyBook(props) {
   return (
     <div className="myBook">
       <Navigation />
-        <HTMLFlipBook width={600} height={600} style={{marginLeft: "auto", marginRight: "auto"}}>
+        <HTMLFlipBook width={400} height={400} style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "600px", height: "600px"}}>Page 1</div>
+              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "400px", height: "400px"}}>Page 1</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "600px", height: "600px"}}>Page 2</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "400px", height: "400px"}}>Page 2</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwo})`, width: "600px", height: "600px"}}>Page 3</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageTwo})`, width: "400px", height: "400px"}}>Page 3</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageThree})`, width: "600px", height: "600px"}}>Page 4</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageThree})`, width: "400px", height: "400px"}}>Page 4</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageFour})`, width: "600px", height: "600px"}}>Page 5</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageFour})`, width: "400px", height: "400px"}}>Page 5</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageFive})`, width: "600px", height: "600px"}}>Page 6</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageFive})`, width: "400px", height: "400px"}}>Page 6</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageSix})`, width: "600px", height: "600px"}}>Page 7</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageSix})`, width: "400px", height: "400px"}}>Page 7</div>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "600px", height: "600px"}}>Page 8</div>
+              <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "400px", height: "400px"}}>Page 8</div>
             </div>
           </div>
         </HTMLFlipBook>
