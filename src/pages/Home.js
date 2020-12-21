@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles.css";
-import home from "../components/images/twoEyed.png";
+import home from "../components/images/ceAkatl.png";
 import about from "../components/images/trimmedAbout.png";
 import wiki from "../components/images/wiki.png";
 import popol from "../components/images/popol.png";

@@ -8,6 +8,9 @@ import pageTwo from "../components/images/apThree1.png";
 import pageThree from "../components/images/apFour1.png";
 import pageFour from "../components/images/apFive1.png";
 import pageFive from "../components/images/apSix1.png";
+import pageSix from "../components/images/mpSeven1.png";
+import pageSeven from "../components/images/mpEight1.png";
+import ReactPlayer from 'react-player';
 
 function ModTwo(props) {
   return (
@@ -42,6 +45,25 @@ function ModTwo(props) {
           <div className="demoPage">
             <div className="pageContent">
               <div className="page-image" style={{backgroundImage: `url(${pageFive})`, width: "400px", height: "400px"}}>Page 6</div>
+            </div>
+          </div>
+          <div className="demoPage">
+            <div className="pageContent">
+              <div className="page-image" style={{backgroundImage: `url(${pageSix})`, width: "400px", height: "400px"}}>Page 7</div>
+            </div>
+          </div>
+          <div className="demoPage">
+            <div className="container">
+              <div className="video col-sm-6">
+                <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "400px", height: "400px"}}> 
+                    <div className="row" style={{height: "300px"}}>                       
+                      <ReactPlayer 
+                          style={{postion: "relative", marginTop: "5%", marginLeft: "1vw"}}
+                          url="https://youtu.be/NhWrKZd4Gck" 
+                      />
+                    </div>
+                </div>
+              </div>
             </div>
           </div>
         </HTMLFlipBook>

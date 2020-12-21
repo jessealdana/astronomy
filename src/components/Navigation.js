@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { Link, withRouter, } from "react-router-dom";
 
 function Navigation(props) {
   return (
@@ -7,7 +7,7 @@ function Navigation(props) {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Two-Eyed Seeing
+            Ce Akatl
           </Link>
           <button
             className="navbar-toggler"
@@ -39,15 +39,6 @@ function Navigation(props) {
               >
                 <Link className="nav-link" to="/about">
                   About
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${
-                  props.location.pathname === "/contact" ? "active" : ""
-                }`}
-              >
-                <Link className="nav-link" to="/contact">
-                  Contact
                 </Link>
               </li>
             </ul>
