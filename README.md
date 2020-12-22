@@ -22,7 +22,7 @@
  ## Installation
 
 This app is deployed on Heroku at:
-https://astronomy-two.herokuapp.com
+https://ce-akatl.herokuapp.com
 
 
  ## Usage
