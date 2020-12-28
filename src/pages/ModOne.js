@@ -14,7 +14,7 @@ function ModOne(props) {
           width={500} 
           height={500} 
           style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}
-          >
+        >
           <div className="demoPage">
             <div className="pageContent">
               <img src="https://photos.smugmug.com/photos/i-mFxhxsv/0/M/i-mFxhxsv-M.png" alt="Page One" style={{width: "500px", height: "500px"}}></img>

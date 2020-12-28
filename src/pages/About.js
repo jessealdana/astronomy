@@ -3,61 +3,39 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import "../styles.css";
 import HTMLFlipBook from "react-pageflip";
-import titleBackground from "../components/images/pageFour1.png";
-import pageOne from "../components/images/pageFive1.png";
-import pageTwo from "../components/images/pageSix1.png";
-import pageThree from "../components/images/mpEight2.png";
-// import pageFour from "../components/images/pageFour1.png";
-// import pageFive from "../components/images/pageFive1.png";
-// import pageSix from "../components/images/pageSix1.png";
-// import pageSeven from "../components/images/mpEight1.png";
 
 function MyBook(props) {
   return (
     <div className="myBook">
       <Navigation />
-        <HTMLFlipBook width={500} height={500} style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}>
+        <HTMLFlipBook 
+          width={500} 
+          height={500} 
+          style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}
+        >
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "500px", height: "500px"}}>Page 1</div>
+              <img src="https://photos.smugmug.com/photos/i-nx9R9zm/0/4b44e5dd/M/i-nx9R9zm-M.png" alt="Page One" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "500px", height: "500px"}}>Page 2</div>
+              <img src="https://photos.smugmug.com/photos/i-6NPbXzs/0/6293ce17/M/i-6NPbXzs-M.png"  alt="Page Two" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageTwo})`, width: "500px", height: "500px"}}>Page 3</div>
+              <img src="https://photos.smugmug.com/photos/i-FVkQB8W/0/6f3c5e1f/M/i-FVkQB8W-M.png"  alt="Page Three" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageThree})`, width: "500px", height: "500px"}}>Page 4</div>
+              <img src="https://photos.smugmug.com/photos/i-r6H8XKG/0/336402a5/M/i-r6H8XKG-M.png"  alt="Page Four" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
-          {/* <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageFour})`, width: "500px", height: "500px"}}>Page 5</div>
-            </div>
-          </div> */}
-          {/* <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageFive})`, width: "500px", height: "500px"}}>Page 6</div>
-            </div>
-          </div> */}
-          {/* <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageSix})`, width: "500px", height: "500px"}}>Page 7</div>
-            </div>
-          </div> */}
-          {/* <div className="demoPage">
-            <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "500px", height: "500px"}}>Page 8</div>
-            </div>
-          </div> */}
         </HTMLFlipBook>
+        <br />
+        <br />
         <Footer />
     </div>
   );
