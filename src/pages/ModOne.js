@@ -2,14 +2,7 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import "../styles.css";
 import HTMLFlipBook from "react-pageflip";
-// import titleBackground from "https://jessealdana.smugmug.com/CeAkatl/i-mFxhxsv";
-// import pageOne from "https://jessealdana.smugmug.com/CeAkatl/i-3fSdchn";
-// import pageTwo from "https://jessealdana.smugmug.com/CeAkatl/i-kdd9DbD";
-// import pageThree from "https://jessealdana.smugmug.com/CeAkatl/i-5cB9LM7";
-// import pageFour from "https://jessealdana.smugmug.com/CeAkatl/i-jgXgsSc";
-// import pageFive from "https://jessealdana.smugmug.com/CeAkatl/i-xmzWSrh";
-// import pageSix from "https://jessealdana.smugmug.com/CeAkatl/i-3Thwkgr";
-// import pageSeven from "https://jessealdana.smugmug.com/CeAkatl/i-r6H8XKG";
+import pageSeven from "../components/images/mpEight2.png";
 import ReactPlayer from 'react-player';
 
 
@@ -54,20 +47,20 @@ function ModOne(props) {
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-3Thwkgr/0/M/i-3Thwkgr-M.png" alt="Page Seven" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-3Thwkgr/0/M/i-3Thwkgr-M.png" alt="Page Seven" style={{width: "550px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="container">
-              <div className="video col-sm-6">
-                <img src="https://photos.smugmug.com/photos/i-r6H8XKG/0/M/i-r6H8XKG-M.png" alt="Page Eight" style={{width: "500px", height: "500px"}}></img>
-                    <div className="row" style={{height: "500px", width: "500px", marginTop: "-40vh"}}>                       
+              <div className="video">
+                <div className="page-image" style={{backgroundImage: `url(${pageSeven})`, width: "500px", height: "500px"}}> 
+                    <div className="row">                       
                       <ReactPlayer 
-                          style={{postion: "relative", marginLeft: "1vw", zIndex: "2"}}
+                          style={{position: "relative", marginTop: "16%", marginLeft: "1vw"}}
                           url="https://youtu.be/2U9JsZJVqnA" 
                       />
                     </div>
-
+                </div>
               </div>
             </div>
           </div>
@@ -77,3 +70,4 @@ function ModOne(props) {
 }
 
 export default ModOne
+
