@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+// import Navigation from "../components/Navigation";
 import "../styles.css";
 import home from "../components/images/ceAkatl.png";
 import collab from "../components/images/collab.png";
