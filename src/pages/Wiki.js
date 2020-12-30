@@ -21,6 +21,9 @@ export default function Wiki() {
             <a href="/aboutWiki">
               <img id="wikiTitle" src={collab} alt="Wiki" />
             </a>
+            <a href="/nasa">
+              <img id="nasaPic" src="https://photos.smugmug.com/photos/i-NCQNQrZ/0/b030d820/X2/i-NCQNQrZ-X2.png" alt="Wiki" />
+            </a>
         </div>
       </div>
     </div>

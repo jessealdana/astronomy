@@ -56,6 +56,14 @@
     left: 40vw;
     top: 5vh;
 }
+#nasaPic {
+  width: 9vw;
+  height: 26vh;
+  position: absolute;
+  left: 55vw;
+  top: 34.5vh;
+}
+
 
 #modOnePic {
     width: 9vw;

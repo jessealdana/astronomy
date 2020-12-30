@@ -13,8 +13,9 @@ import ModFour from "./pages/ModFour"
 import ModFive from "./pages/ModFive";
 import ModSix from "./pages/ModSix";
 import Sample from "./pages/Sample";
-import AnotherPopolVuh from "./pages/AnotherPopolVuh"
-import AboutWiki from "./pages/AboutWiki"
+import AnotherPopolVuh from "./pages/AnotherPopolVuh";
+import AboutWiki from "./pages/AboutWiki";
+import Nasa from "./pages/Nasa";
 
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/sample" exact component={() => <Sample />} />
           <Route path="/popol" exact component={() => <AnotherPopolVuh />} />
           <Route path="/aboutWiki" exact component={() => <AboutWiki />} />
+          <Route path="/nasa" exact component={() => <Nasa />} />
         </Switch>
       </Router>
     </div>
