@@ -20,7 +20,7 @@ function AnotherPopolVuh(props) {
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-xbNXcX2/0/fe69668a/X2/i-xbNXcX2-X2.png"  alt="Page Two" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-ZCJMv3r/0/a0824e8e/X3/i-ZCJMv3r-X3.png"  alt="Page Two" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
@@ -40,12 +40,12 @@ function AnotherPopolVuh(props) {
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-9jSXr2m/0/d5e1b3c9/X2/i-9jSXr2m-X2.png" alt="Page Six" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-DBQjLHn/0/7f09e73e/X3/i-DBQjLHn-X3.png" alt="Page Six" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-vLSMzj6/0/753077a1/X2/i-vLSMzj6-X2.png" alt="Page Seven" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-Nfn8s6X/0/3456c52b/X3/i-Nfn8s6X-X3.png" alt="Page Seven" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
@@ -70,7 +70,7 @@ function AnotherPopolVuh(props) {
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-K3VL65z/0/ce3b43b0/X2/i-K3VL65z-X2.png" alt="Page Twelve" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-fMnQBrg/0/be4092e3/X3/i-fMnQBrg-X3.png" alt="Page Twelve" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">

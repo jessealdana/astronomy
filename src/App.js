@@ -16,6 +16,14 @@ import Sample from "./pages/Sample";
 import AnotherPopolVuh from "./pages/AnotherPopolVuh";
 import AboutWiki from "./pages/AboutWiki";
 import Nasa from "./pages/Nasa";
+import Astronaut from "./pages/Astronaut";
+import Chol from "./pages/Chol";
+import Kaquix from "./pages/Kaquix";
+import Lunar from "./pages/Lunar";
+import Xultun1 from "./pages/Xultun1";
+import Xultun2 from "./pages/Xultun2";
+import Moons from "./pages/Moons";
+import Eclipses from "./pages/Eclipses";
 
 
 export default function App() {
@@ -37,6 +45,14 @@ export default function App() {
           <Route path="/popol" exact component={() => <AnotherPopolVuh />} />
           <Route path="/aboutWiki" exact component={() => <AboutWiki />} />
           <Route path="/nasa" exact component={() => <Nasa />} />
+          <Route path="/astronaut" exact component={() => <Astronaut />} />
+          <Route path="/chol" exact component={() => <Chol />} />
+          <Route path="/kaquix" exact component={() => <Kaquix />} />
+          <Route path="/lunar" exact component={() => <Lunar />} />
+          <Route path="/xultun1" exact component={() => <Xultun1 />} />
+          <Route path="/xultun2" exact component={() => <Xultun2 />} />
+          <Route path="/moons" exact component={() => <Moons />} />
+          <Route path="/eclipses" exact component={() => <Eclipses />} />
         </Switch>
       </Router>
     </div>

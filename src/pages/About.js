@@ -11,7 +11,7 @@ function MyBook(props) {
         <HTMLFlipBook 
           width={500} 
           height={500} 
-          style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}
+          style={{marginLeft: "auto", marginRight: "auto", marginTop: "2vh"}}
         >
           <div className="demoPage">
             <div className="pageContent">
