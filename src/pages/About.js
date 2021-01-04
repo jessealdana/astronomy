@@ -15,17 +15,17 @@ function MyBook(props) {
         >
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-nx9R9zm/0/4b44e5dd/M/i-nx9R9zm-M.png" alt="Page One" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-vWdmk28/0/b7947127/X2/i-vWdmk28-X2.png" alt="Page One" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-6NPbXzs/0/6293ce17/M/i-6NPbXzs-M.png"  alt="Page Two" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-kGtsz8B/0/5b54261d/X2/i-kGtsz8B-X2.png"  alt="Page Two" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <img src="https://photos.smugmug.com/photos/i-FVkQB8W/0/6f3c5e1f/M/i-FVkQB8W-M.png"  alt="Page Three" style={{width: "500px", height: "500px"}}></img>
+              <img src="https://photos.smugmug.com/photos/i-nLq5BW4/0/41eef0cc/X2/i-nLq5BW4-X2.png"  alt="Page Three" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">

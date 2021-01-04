@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import Wiki from "./pages/Wiki";
 import ModOne from "./pages/ModOne";
 import ModTwo from "./pages/ModTwo";
@@ -33,7 +33,7 @@ export default function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          {/* <Route path="/contact" exact component={() => <Contact />} /> */}
           <Route path="/wiki" exact component={() => <Wiki />} />
           <Route path="/modOne" exact component={() => <ModOne />} />
           <Route path="/modTwo" exact component={() => <ModTwo />} />

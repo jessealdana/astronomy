@@ -2,25 +2,27 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import "../styles.css";
 import HTMLFlipBook from "react-pageflip";
-import titleBackground from "../components/images/mpSeven1.png";
-import pageOne from "../components/images/collabTwo1.png";
 
 function AboutWiki(props) {
-    return (
-      <div className="myBook">
-        <Navigation />
-          <HTMLFlipBook width={400} height={400} style={{marginLeft: "auto", marginRight: "auto", marginTop: "5%"}}>
+  return (
+    <div className="myBook">
+      <Navigation />
+        <HTMLFlipBook 
+          width={500} 
+          height={500} 
+          style={{marginLeft: "auto", marginRight: "auto", marginTop: "2vh"}}
+        >
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${titleBackground})`, width: "400px", height: "400px"}}>Page 1</div>
+              <img src="https://photos.smugmug.com/photos/i-3Thwkgr/0/b1618f48/M/i-3Thwkgr-M.png" alt="Page One" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
           <div className="demoPage">
             <div className="pageContent">
-              <div className="page-image" style={{backgroundImage: `url(${pageOne})`, width: "400px", height: "400px"}}>Page 2</div>
+              <img src="https://photos.smugmug.com/photos/i-pZH7SQN/0/22b1814a/X2/i-pZH7SQN-X2.png"  alt="Page Two" style={{width: "500px", height: "500px"}}></img>
             </div>
           </div>
-          </HTMLFlipBook>
+        </HTMLFlipBook>
     </div>
   );
 }
